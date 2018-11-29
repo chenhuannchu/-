@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'CTMediator' do
+
+pod "HandyFrame"
+
+
+pod 'XSLTool',:git=>'https://gitee.com/xslspring/XSLTool.git'
+
+#pod 'WSTest',:git=>'https://gitee.com/chenhuan123/WSTest.git'
+
+
+pod 'AMap3DMap-NO-IDFA', '~> 6.4.0'
+pod 'AMapLocation-NO-IDFA', '~> 2.6.0'
+pod 'AMapNavi-NO-IDFA', '~> 6.3.0'
+pod 'AMapSearch-NO-IDFA', '~> 6.1.1'
+pod 'AMapFoundation-NO-IDFA', '~> 1.5.2'
+#pod 'WSMediator'
+
+end
+
